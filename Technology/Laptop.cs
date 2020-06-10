@@ -1,25 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Text;
 
 namespace Technology
 {
-    class Laptop
+    class Laptop : Computer
     {
-        public int ScreenSize { get; set; } 
+        public double ScreenSize { get; set; } 
 
-        public Laptop(int screenSize)
+        public Laptop(int ram, int storage, bool hasKeyboard, double screenSize) : base(ram, storage, hasKeyboard)
+
         {
             ScreenSize = screenSize;
 
         }
-        public static int ChangeLaptop(int screenSizeToUpdate)
+        public string LargeScreen()
         {
-            if (screenSizeToUpdate == screenSize)
+            if (ScreenSize > 15)
             {
-                Console.WriteLine("The laptop located in" + ItemLocation + "needs an update"); 
+                return "Large screen laptop";
             }
+            else
+            {
+                return "Screen is within specifications";
+            }
+
+        }
         }
     }
-}
+

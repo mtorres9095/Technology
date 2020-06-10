@@ -1,26 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Xml.Schema;
 
 namespace Technology
 {
-    class SmartPhone
+    public class SmartPhone : Computer
     {
-        public string Model { get; set; }
-
-        public SmartPhone(string model)
+        public int NumberOfSelfies { get; set; }
+        public SmartPhone(int ram, int storage, bool hasKeyboard, int numberOfSelfies) : base(ram, storage, hasKeyboard)
         {
-            Model = model;
-
+            NumberOfSelfies = numberOfSelfies;
         }
-        public Blackberry()
-            string str = model.ToLower; 
-            if (Model.ToLower = str)
-            {
-              Model.Remove(model);  
-            }
 
+        public void TakeSelfie()
+        {
+            NumberOfSelfies++;
         }
     }
 }
+

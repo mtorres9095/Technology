@@ -7,24 +7,12 @@ namespace Technology
     {
         static void Main(string[] args)
         {
-        public string ItemLocation { get; set; }
-        public int RamMemory { get; set; }
-        public int StorageCapacity { get; set; }
-
-        public Program(string itemLocation, int ramMemory, int storageCapacity)
+            static void Main(string[] args)
             {
-            ItemLocation = itemLocation;
-            RamMemory = ramMemory;
-            StorageCapacity = storageCapacity;
+                Console.WriteLine("Hello World!");
             }
         }
-        Program firstItem = new Program("Office #234", 24, 512);
-        public readonly PrintItemLocation()
-        {
-        Program firstItem = new Program("Office #234", 24, 512);
-        Console.WriteLine("The item you're looking for is located at:"+ ItemLocation);
-        }
-
-      
     }
 }
+
+
