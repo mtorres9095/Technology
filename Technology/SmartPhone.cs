@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Schema;
 
 namespace Technology
 {
@@ -12,6 +13,13 @@ namespace Technology
         {
             Model = model;
 
+        }
+        public Blackberry()
+            string str = model.ToLower; 
+            if (Model.ToLower = str)
+            {
+              Model.Remove(model);  
+            }
 
         }
     }

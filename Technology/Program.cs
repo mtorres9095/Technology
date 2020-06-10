@@ -18,7 +18,7 @@ namespace Technology
             StorageCapacity = storageCapacity;
             }
         }
-            Program firstItem = new Program("Office #234", 24, 512);
+        Program firstItem = new Program("Office #234", 24, 512);
         public readonly PrintItemLocation()
         {
         Program firstItem = new Program("Office #234", 24, 512);
