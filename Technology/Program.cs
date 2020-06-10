@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Technology
 {
@@ -11,15 +12,19 @@ namespace Technology
         public int StorageCapacity { get; set; }
 
         public Program(string itemLocation, int ramMemory, int storageCapacity)
-        {
+            {
             ItemLocation = itemLocation;
             RamMemory = ramMemory;
             StorageCapacity = storageCapacity;
+            }
         }
-        }
+            Program firstItem = new Program("Office #234", 24, 512);
         public readonly PrintItemLocation()
-    {
-        Console.WriteLine($"The item you're looking for is located at:"+ itemLocation");
-    }
+        {
+        Program firstItem = new Program("Office #234", 24, 512);
+        Console.WriteLine("The item you're looking for is located at:"+ ItemLocation);
+        }
+
+      
     }
 }
