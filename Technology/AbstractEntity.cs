@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Technology
 {
     public abstract class AbstractEntity
@@ -15,6 +14,3 @@ namespace Technology
         }
     }
 }
-
-
-

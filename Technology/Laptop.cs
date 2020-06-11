@@ -1,29 +1,25 @@
 ﻿using System;
-
 namespace Technology
 {
-    class Laptop : Computer
+    public class Laptop : Computer
     {
-        public double ScreenSize { get; set; } 
+        public double Weight { get; set; }
 
-        public Laptop(int ram, int storage, bool hasKeyboard, double screenSize) : base(ram, storage, hasKeyboard)
-
+        public Laptop(int ram, int storage, bool hasKeyboard, double weight) : base(ram, storage, hasKeyboard)
         {
-            ScreenSize = screenSize;
-
+            Weight = weight;
         }
-        public string LargeScreen()
+
+        public bool IsHeavy()
         {
-            if (ScreenSize > 15)
+            if(Weight > 5.0)
             {
-                return "Large screen laptop";
+                return true;
             }
             else
             {
-                return "Screen is within specifications";
+                return false;
             }
-
-        }
         }
     }
-
+}

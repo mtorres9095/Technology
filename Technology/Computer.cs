@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Technology
 {
     public class Computer : AbstractEntity
@@ -26,15 +25,3 @@ namespace Technology
         }
     }
 }
-
-        //public string ItemLocation { get; set; }
-        //public string Brand { get; set; }
-        //public int StorageCapacity { get; set; }
-
-        //public Program(string itemLocation, int ramMemory, int storageCapacity)
-        //{
-        //    ItemLocation = itemLocation;
-        //    RamMemory = ramMemory;
-        //    StorageCapacity = storageCapacity;
-        //}
-   

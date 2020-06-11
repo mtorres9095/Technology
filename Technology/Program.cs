@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Technology
 {
@@ -7,12 +6,7 @@ namespace Technology
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                Console.WriteLine("Hello World!");
-            }
+            Console.WriteLine("Hello World!");
         }
     }
 }
-
-
